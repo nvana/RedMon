@@ -27,7 +27,8 @@
   },
   "scripts": {
     "dev": "webpack-dev-server --content-base src --inline --hot",
-    "server": "node ./rest/serveur.js"
+    "server": "node ./rest/serveur.js",
+    "eslint":"eslint src/js/"
   },
   "author": "",
   "license": "ISC"
