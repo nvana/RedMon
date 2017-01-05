@@ -7,5 +7,5 @@ import TodoList from "./pages/TodoList";
 const app = document.getElementById('app');
 
 ReactDOM.render(
-  <TodoList/>,
+	<TodoList/>,
 app);
