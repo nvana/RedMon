@@ -3,5 +3,5 @@ React/Redux Crud generator using NodeJS/Express for Rest API and MongoDB to pers
 
 ## Testing
 Unit tests are not implemented yet.
-For now, you can check code quelity using 
+For now, you can check code quality using 
 `npm run eslint`
