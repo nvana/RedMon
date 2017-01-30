@@ -1,0 +1,7 @@
+{
+	"name" : "todo",
+	"data" : {
+		"id" : "number",
+		"name" : "string"
+	}
+}

@@ -23,12 +23,13 @@
     "babel-loader": "^6.2.1",
     "babel-preset-react": "^6.3.13",
     "eslint": "^3.12.2",
-    "eslint-plugin-react": "^6.8.0"
+    "eslint-plugin-react": "^6.8.0",
+    "json-loader": "^0.5.4"
   },
   "scripts": {
     "dev": "webpack-dev-server --content-base src --inline --hot",
     "server": "node ./rest/serveur.js",
-    "eslint":"eslint src/js/"
+    "eslint": "eslint src/js/"
   },
   "author": "",
   "license": "ISC"
