@@ -3,23 +3,26 @@ var webpack = require('webpack');
 var path = require('path');
 
 module.exports = {
-  context: path.join(__dirname, "src"),
+  context: __dirname + "/src",
   devtool: debug ? "inline-sourcemap" : null,
-  entry: "./js/client.js",
+  entry: {
+    javascript: "./js/client.js",
+    html: "./index.html"
+  },
   module: {
     loaders: [
       {
         test: /\.jsx?$/,
-        exclude: /(node_modules|bower_components)/,
         loader: 'babel-loader',
+        exclude: /node_modules/,
         query: {
-          presets: ['react', 'es2015']
-        }
+            presets: ['react','es2015']
+          }
       }
     ]
   },
   output: {
-    path: __dirname + "/target/",
-    filename: "client.min.js"
+    path: __dirname + "/build",
+    filename: "./client.min.js"
   }
 };
