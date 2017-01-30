@@ -27,7 +27,8 @@
     "json-loader": "^0.5.4"
   },
   "scripts": {
-    "dev": "webpack-dev-server --content-base src --inline --hot",
+    "dev": "webpack-dev-server --content-base src --inline --hot  && cp src/index.html build/index.html",
+    "build": "webpack --content-base src --inline --hot  && cp src/index.html build/index.html",
     "server": "node ./rest/serveur.js",
     "eslint": "eslint src/js/"
   },

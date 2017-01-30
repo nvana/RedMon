@@ -3,9 +3,12 @@ var webpack = require('webpack');
 var path = require('path');
 
 module.exports = {
-  context: path.join(__dirname, "src"),
+  context: __dirname + "/src",
   devtool: debug ? "inline-sourcemap" : null,
-  entry: "./js/client.js",
+  entry: {
+    javascript: "./js/client.js",
+    html: "./index.html"
+  },
   module: {
     loaders: [
       {
@@ -19,7 +22,7 @@ module.exports = {
     ]
   },
   output: {
-    path: __dirname + "/target/",
-    filename: "client.min.js"
+    path: __dirname + "/build",
+    filename: "./client.min.js"
   }
 };
