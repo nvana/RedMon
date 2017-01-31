@@ -10,6 +10,7 @@ React/Redux boilerplate using NodeJS/Express for Rest API and MongoDB to persist
 ## Todo 
 - [ ] Configure environment variables
 - [ ] Unit testing
+- [ ] Add Compass
 - [ ] Configure eslint
 - [ ] Use proper Redux structure
 - [ ] Use proper NodeJS structure
