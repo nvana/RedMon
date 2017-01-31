@@ -1,5 +1,10 @@
 # RedMon
-React/Redux Crud generator using NodeJS/Express for Rest API and MongoDB to persist datas.
+React/Redux boilerplate using NodeJS/Express for Rest API and MongoDB to persist datas.
+
+## Tools
+* npm
+* Webpack
+* eslint
 
 ## Testing
 Unit tests are not implemented yet.
