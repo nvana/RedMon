@@ -4,6 +4,7 @@ React/Redux boilerplate using NodeJS/Express for Rest API and MongoDB to persist
 ## Tools
 * npm
 * Webpack
+* babel
 * eslint
 
 ## Testing
