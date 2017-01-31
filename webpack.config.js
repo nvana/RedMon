@@ -20,5 +20,8 @@ module.exports = {
   output: {
     path: __dirname + "/build",
     filename: "./client.min.js"
-  }
+  },
+  plugins: [
+    new webpack.HotModuleReplacementPlugin()
+  ]
 };
