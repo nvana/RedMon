@@ -1,4 +1,6 @@
 # RedMon
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/nvana/RedMon.svg)](https://greenkeeper.io/)
 React/Redux boilerplate using NodeJS/Express for Rest API and MongoDB to persist datas.
 
 ## Tools
