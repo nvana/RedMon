@@ -4,11 +4,7 @@ var path = require('path');
 
 module.exports = {
   context: __dirname + "/src",
-  devtool: debug ? "inline-sourcemap" : null,
-  entry: {
-    javascript: "./js/client.js",
-    html: "./index.html"
-  },
+  entry: "./js/client.js",
   module: {
     loaders: [
       {
@@ -24,5 +20,8 @@ module.exports = {
   output: {
     path: __dirname + "/build",
     filename: "./client.min.js"
-  }
+  },
+  plugins: [
+    new webpack.HotModuleReplacementPlugin()
+  ]
 };

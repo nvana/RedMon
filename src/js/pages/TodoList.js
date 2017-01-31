@@ -38,7 +38,7 @@ export default class TodoList extends React.Component {
 					<div className="row">
 						<input type="text" ref={node => {this.input=node;}} />
 						<button type="button" onClick={()=>store.dispatch({ type: 'ADD_TODO', text: this.input.value, id:myID++ })} >ADD</button>
-						<h3>Tasks List yolo</h3>
+						<h3>Tasks List</h3>
 
 						{this.props.todos.map(todo =>
 							<li key={todo.id}>{todo.text}<button onClick={()=>store.dispatch({ type: 'REMOVE_TODO', id:todo.id })} >Remove</button></li>
