@@ -6,10 +6,12 @@ React/Redux boilerplate using NodeJS/Express for Rest API and MongoDB to persist
 * Webpack
 * babel
 * eslint
+* Jest
 
 ## Todo 
 - [ ] Configure environment variables
-- [ ] Unit testing
+- [X] Unit testing React
+- [ ] Unit testing Node
 - [ ] Add Compass
 - [ ] Configure eslint
 - [ ] Use proper Redux structure
@@ -17,6 +19,8 @@ React/Redux boilerplate using NodeJS/Express for Rest API and MongoDB to persist
 - [ ] Develop a specific usecase (back/front)
 
 ## Testing
-Unit tests are not implemented yet.
-For now, you can check code quality using 
+We are using Jest for unit testing :
+`npm test`
+
+For code quality run :
 `npm run eslint`
