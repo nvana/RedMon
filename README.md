@@ -15,7 +15,7 @@ React/Redux boilerplate using NodeJS/Express for Rest API and MongoDB to persist
 ## Todo 
 - [ ] Configure environment variables
 - [X] Unit testing React
-- [ ] Unit testing Node
+- [X] Unit testing Node
 - [ ] Add Compass
 - [ ] Configure eslint
 - [ ] Use proper Redux structure
