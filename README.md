@@ -1,4 +1,5 @@
 [![Greenkeeper badge](https://badges.greenkeeper.io/nvana/RedMon.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/nvana/RedMon.svg?branch=master)](https://travis-ci.org/nvana/RedMon)
 
 # RedMon
 
