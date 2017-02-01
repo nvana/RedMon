@@ -21,6 +21,7 @@ React/Redux boilerplate using NodeJS/Express for Rest API and MongoDB to persist
 - [ ] Use proper Redux structure
 - [ ] Use proper NodeJS structure
 - [ ] Develop a specific usecase (back/front)
+- [ ] Properly configure travis
 
 ## Testing
 We are using Jest for unit testing :
