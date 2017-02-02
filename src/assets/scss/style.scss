@@ -1,4 +1,7 @@
+$bg-color:#777777;
+
 body {
+	background-color:$bg-color;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
