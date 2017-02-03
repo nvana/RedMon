@@ -12,7 +12,7 @@ that will download dependencies.
 
 After that you have to build the app `npm run build`
 
-Then, you can start `npm run server` and `npm run dev` to start both backend and frontend.
+Then, you can start both `npm run server` and `npm run dev` to start both backend and frontend.
 
 ## Tools
 * npm
