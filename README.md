@@ -5,6 +5,15 @@
 
 React/Redux boilerplate using NodeJS/Express for Rest API and MongoDB to persist datas.
 
+Before you can use the boilerplate, you need to have NodeJS and MongoDB installed.
+Then you can run 
+`npm install`
+that will download dependencies.
+
+After that you have to build the app `npm run build`
+
+Then, you can start `npm run server` and `npm run dev` to start both backend and frontend.
+
 ## Tools
 * npm
 * Webpack
