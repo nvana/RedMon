@@ -23,12 +23,11 @@ Then, you can start both `npm run server` and `npm run dev` to start both backen
 
 ## Todo 
 - [ ] Configure environment variables
-- [X] Unit testing React
-- [X] Unit testing Node
+- [X] Unit testing
 - [ ] Add Compass
 - [ ] Configure eslint
-- [ ] Use proper Redux structure
-- [ ] Use proper NodeJS structure
+- [ ] Use proper Redux structure + develop tests
+- [ ] Use proper NodeJS structure + develop tests
 - [ ] Develop a specific usecase (back/front)
 - [ ] Properly configure travis
 
